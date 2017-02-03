@@ -1,5 +1,72 @@
 body {
-	background-color: black;
 	margin: 0px;
 	padding: 0px;
+
 }
+
+.main {
+	background-color: black;
+	color: white;
+}
+
+.block {
+	border: solid;
+	border-color: #e2e2e2;
+	border-width: 3px;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #e2e2e2;	
+	display: inline-block;
+	margin: 30px;
+	background-color: black;
+}
+
+.bigblock {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -400px 0 0 -400px;
+	height: 850px;
+	width: 850px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mlbamain:hover {
+	background-color: #ED1C24;
+}
+
+.two:hover {
+	background-color: #0D8778;
+}
+
+.three:hover {
+	background-color: #F9ED32;
+}
+
+.four:hover {
+	background-color: #8dc63F;
+}
+
+.five:hover {
+	background-color: #EC008C;
+}
+
+.six:hover {
+	background-color: #27AAE1;
+}
+
+.seven:hover {
+	background-color: #F7941E;
+}
+
+.eight:hover {
+	background-color: #662D91;
+}
+.aboutmain:hover {
+	background-image: url(/assets/images/pasfoto.jpg); 
+	background-size: 200px 200px;
+};
