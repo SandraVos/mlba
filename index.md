@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ghostfox
+title: GhostFox
 ---
 
 <h1>Mijn naam is aap</h1>
