@@ -9,6 +9,15 @@ body {
 	color: white;
 }
 
+.bigblock {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -350px 0 0 -400px;
+	height: 100%;
+	width: 850px;
+}
+
 .block {
 	border: solid;
 	border-color: #e2e2e2;
@@ -20,15 +29,6 @@ body {
 	display: inline-block;
 	margin: 30px;
 	background-color: black;
-}
-
-.bigblock {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -400px 0 0 -400px;
-	height: 850px;
-	width: 850px;
 }
 
 a {
@@ -69,4 +69,5 @@ a {
 .aboutmain:hover {
 	background-image: url(/assets/images/pasfoto.jpg); 
 	background-size: 200px 200px;
-};
+}
+

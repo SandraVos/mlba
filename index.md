@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="bigblock">
-	
 	<a href="/mlba/index.html">
 		<div class="block mlbamain"></div>
 	</a>
@@ -19,7 +18,9 @@ layout: default
 	<a href="/about/about.html">
 		<div class="block aboutmain"></div>
 	</a>
-	
 </div>
 
+<div>
+	
+</div>
 

@@ -1,0 +1,114 @@
+
+
+/* smartphone */
+@media screen and (min-width: 1279px) {
+ 	.bigblock {
+ 		margin: -200px 0px 0px -180px;
+ 		height: 100%;
+ 		width: 375px;
+ 	}
+
+ 	.block {
+ 		width: 90px;
+ 		height: 90px;
+ 		margin: 10px;
+ 	}
+
+ .mlbamain {
+	background-color: #ED1C24;
+}
+
+.two {
+	background-color: #0D8778;
+}
+
+.three {
+	background-color: #F9ED32;
+}
+
+.four {
+	background-color: #8dc63F;
+}
+
+.five {
+	background-color: #EC008C;
+}
+
+.six {
+	background-color: #27AAE1;
+}
+
+.seven {
+	background-color: #F7941E;
+}
+
+.eight {
+	background-color: #662D91;
+}
+.aboutmain {
+	background-image: url(/assets/images/pasfoto.jpg); 
+	background-size: 90px 90px;
+}
+ }
+
+ /* Tablet */
+@media screen and (min-width: 768px) {
+ 	.bigblock {
+ 		margin: -300px 0px 0px -300px;
+ 		height: 100%;
+ 		width: 600px;
+ 	}
+
+ 	.block {
+ 		width: 150px;
+ 		height: 150px;
+ 		margin: 20px;
+ 	}
+
+ .mlbamain {
+	background-color: #ED1C24;
+}
+
+.two {
+	background-color: #0D8778;
+}
+
+.three {
+	background-color: #F9ED32;
+}
+
+.four {
+	background-color: #8dc63F;
+}
+
+.five {
+	background-color: #EC008C;
+}
+
+.six {
+	background-color: #27AAE1;
+}
+
+.seven {
+	background-color: #F7941E;
+}
+
+.eight {
+	background-color: #662D91;
+}
+.aboutmain {
+	background-image: url(/assets/images/pasfoto.jpg); 
+	background-size: 150px 150px;
+}
+ }
+}
+
+/* normal screen desktop */
+@media screen and (min-width: 1200px){
+
+}
+
+/* big screen desktop */
+@media screen and (max-width: 1900px) {
+
+}
