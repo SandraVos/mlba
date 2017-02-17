@@ -1,3 +1,90 @@
 .about {
-	background-color: red;
+	background-color: #fbfaf5;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
 }
+
+#me {
+	padding: 20px 0px 20px 20px;
+	font-size: 50px;
+	color: #59260B;
+}
+
+#box {
+	height: 100%;
+	width: 100%;
+}
+
+#border {
+	border-width: 10px 10px 30px 10px;
+	border-style: solid;
+	border-color: #59260B;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.photo {
+	height: 230px;
+	width: 190px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	border-radius: 2px;
+	box-shadow: 10px 10px 25px 0px rgba(176,174,176,1);
+	background-color: white;
+	font-size: 20px;
+	font-family: Berlin Sans FB, Arial;
+	display: block;
+	line-height: 50px;
+}
+
+.photobox {
+	height: 170px;
+	width: 170px;
+	box-sizing: border-box;
+	margin: 10px 0px 0px 10px;
+	border-radius: 2px;	
+	background-size: 170px 170px;
+}
+	
+.persona {
+	background-image: url(../images/me.jpg);
+}
+
+.projects {
+	background-image: url(../images/projects.jpg);
+}
+
+.mail {
+	background-image: url(../images/contact.jpg);
+}
+
+.experience {
+	background-image: url(../images/experience.jpg);
+}
+
+.education {
+	background-image: url(../images/education.jpg);
+}
+
+.tech {
+	background-image: url(../images/tech.jpg);
+}
+
+.program {
+	background-image: url(../images/program.png);
+}
+
+.hobby {
+	background-image: url(../images/hobby.jpg);
+}
+
+.else {
+	background-image: url(../images/extra.jpg);
+}
+
+
+
+
