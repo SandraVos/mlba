@@ -1,8 +1,9 @@
-.about {
+body {
 	background-color: #fbfaf5;
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial;
+	overflow-y: hidden;
 }
 
 .back {
@@ -16,19 +17,11 @@
   right: 0px;
   width: 110px;
   text-align: center;
+  top: 80px;
 }
 
-.box {
-	height: 100%;
-	width: 100%;
-}
-
-.border {
-	border-bottom-width: 10px;
-	border-style: solid;
-	border-color: #59260B;
-	max-width: 100%;
-	max-height: 100%;
+i {
+	font-style: normal;
 }
 
 .me {
@@ -41,6 +34,42 @@ p {
 	font-style: normal;
 }
 
+.pictureabout{
+	background-image: url(/about/assets/images/me.png)
+}
+
+.pictureproject{
+	background-image: url(/about/assets/images/projects.png)
+}
+
+.pictureexperience{
+	background-image: url(/about/assets/images/experience.png)
+}
+
+.pictureeducation{
+	background-image: url(/about/assets/images/education.png)
+}
+
+.picturetech{
+	background-image: url(/about/assets/images/tech.png)
+}
+
+.pictureprogram{
+	background-image: url(/about/assets/images/program.png)
+}
+
+.picturehobby{
+	background-image: url(/about/assets/images/hobby.png)
+}
+
+.pictureextra{
+	background-image: url(/about/assets/images/extra.png)
+}
+
+.picturecontact{
+	background-image: url(/about/assets/images/contact.png)
+}
+
 .polo {
 	height: 230px;
 	width: 190px;
@@ -48,26 +77,42 @@ p {
 	border-radius: 2px;
 	box-shadow: 10px 10px 25px 0px rgba(176,174,176,1);
 	background-color: white;
-	font-size: 20px;
-	font-family: Berlin Sans FB, Arial;
 	display: block;
 	position: absolute;
-	margin: 50px 150px;
+	font-size: 20px;
+	font-family: Berlin Sans FB, Arial;
 	line-height: 30px;
-	color: #59260B;
-}
+}	
 
 .photobox {
 	height: 170px;
 	width: 170px;
-	margin-top: 10px;
+	margin: 10px;
 	box-sizing: border-box;
 	border-radius: 2px;	
 	background-size: 170px 170px;
-	cursor: pointer;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: white;
 }
 	
-
+#top, #bottom, #left, #right {
+	background: #59260B;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 10px;
+		margin-top: 100px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		}
+		#top { top: 0; margin-top: 100px; height: 10px;}
+		#bottom { bottom: 0; height: 40px;}
 
 
 
