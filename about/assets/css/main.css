@@ -116,3 +116,83 @@ p {
 
 
 
+/* smartphone */
+@media screen and (max-width: 480px){
+	#top, #bottom, #left, #right{
+		display: none;
+	}
+
+	.back{
+		top: 109px;
+	}
+
+	.polo{
+		display: none;
+	}
+
+	.aboutphoto{
+		height: 170px;
+		width: 170px;
+		margin: 50px;
+	}
+
+	html{
+		text-align: center;
+		overflow-y: scroll;
+	}
+}
+
+@media screen and (min-width: 480.1px) and (max-width: 620px){
+	#bottom, #left, #right{
+		display: none;
+	}
+
+	.polo{
+		display: none;
+	}
+
+	.aboutphoto{
+		height: 170px;
+		width: 170px;
+		margin: 50px;
+	}
+
+	html{
+		text-align: center;
+	}
+}
+
+/* Tablet */
+@media screen and (min-width: 480.1px) and (max-width: 1023.9px){
+	#bottom, #left, #right{
+		display: none;
+	}
+
+	.polo{
+		display: none;
+	}
+
+	.aboutphoto{
+		height: 170px;
+		width: 170px;
+		margin: 50px;
+	}
+
+	html{
+		text-align: center;
+	}
+}
+
+/* normal screen desktop */
+@media (min-width: 1024px){
+	.aboutphoto{
+	display: none;
+	}
+}
+
+/* big screen desktop */
+@media (min-width: 1200px){
+	.aboutphoto{
+		display: none;
+	}
+}
