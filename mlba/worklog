@@ -1,0 +1,54 @@
+/*
+Title: Maeves Little Big Adventure
+-----------------------
+Maeve is the daughter of a powerfull Baron in a city called Briëlle. She's only ten years old and very spoiled. Her father calls upon a few adventurers to get a special wooden toy made by the goblin toymaker who lives in te woods near Briëlle. Once the adventurer steps outside the citygates it becomes clear that something has happened to the toymaker. The adventurer needs to make his way through the woods and set de toymaker free.
+
+----------
+----------
+GAME WORLD
+----------
+----------
+
+Characters
+----------
+Attributes
+----------
+- You (hero)
+- name, weapon (sword, bow, nothing)
+
+- Baron
+- gives the mission.
+
+- Box
+- To open it, you need a code
+
+- Forest troll
+- name
+
+- Toymakers workshop
+- Code to open door 
+
+- Dead goblin
+- has the code on a letter 
+
+Wins and Losses
+----------------
+- Win: Set the toymaker free
+- Lose: Get killed by forest troll
+
+Model. 
+Model code typically reflects real-world things. But in the case of your game, the model should consist of key objects and characters in the game-world. In Simpsons Bullies for example, the classes and objects derived from the outline – e.g., schoolyard kids, Nelson and Bart – are considered part of the model, because they reflect the core constructs of the game-world.
+
+baron with options
+foresttroll with options
+
+View. 
+View code are all the functions that directly interact with the user. In the case of GameBook, they are window prompts (e.g., alert, confirm, prompt). The user interacts with the view through those prompts, for example, typing in “YES” or “NO” and pressing “OK.”
+
+
+
+Controller. 
+Controller code acts as a liaison between the model and the view, receiving user input and deciding what to do with it. For example, if the user has typed “YES” into a window prompt, it’s up to the controller to determine what model code it should execute in response. Controller logic is implemented via conditional statements, loops and other code constructs that execute different decisions based on varying inputs. We’ll give more detail on the controller as we dive deeper into the building process.
+
+When player must insert data, this code runs and responds from Model
+*/

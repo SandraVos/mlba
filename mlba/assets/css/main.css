@@ -1,3 +1,28 @@
-.mlba {
-	background-color: #fffffb;
+.content{
+	width: 70%;
+	background-color: black;
+	box-sizing: border-box;
+	position: fixed;
+    left: 15%;
+    padding: 0px 20px;
+    height: 100vh;
 }
+
+.next{
+	background: #74db2a;
+	border-style: solid;
+	border-color: black;
+	color: black;
+	
+}
+
+.mlba {
+	background-image: url(/mlba/assets/images/pixel.png);
+	color: white;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 25px;
+	overflow-y: scroll;
+}
+
+
+
